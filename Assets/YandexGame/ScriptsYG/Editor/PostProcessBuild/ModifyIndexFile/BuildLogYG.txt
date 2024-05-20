@@ -1,2 +1,2 @@
 Build path: D:/GitHub/games/builds/yandexthirdgame/WEBGLBuild
-Build number: 2
+Build number: 3

@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 8349d65d1d36b0749a513d7138531b65
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Turret
+    100002: //RootNode
+    100004: Turret_bottom
+    100006: Turret_top
+    100008: Object005
+    100010: turret_top
+    100012: shot_muzzle
+    100014: turret_base
+    100016: shot_muzzle1
+    100018: shot_muzzle2
+    400000: Turret
+    400002: //RootNode
+    400004: Turret_bottom
+    400006: Turret_top
+    400008: Object005
+    400010: turret_top
+    400012: shot_muzzle
+    400014: turret_base
+    400016: shot_muzzle1
+    400018: shot_muzzle2
+    2300000: Turret
+    2300002: //RootNode
+    2300004: Turret_bottom
+    2300006: Turret_top
+    2300008: Object005
+    2300010: turret_top
+    2300012: shot_muzzle
+    2300014: turret_base
+    2300016: shot_muzzle1
+    2300018: shot_muzzle2
+    3300000: Turret
+    3300002: //RootNode
+    3300004: Turret_bottom
+    3300006: Turret_top
+    3300008: Object005
+    3300010: turret_top
+    3300012: shot_muzzle
+    3300014: turret_base
+    3300016: shot_muzzle1
+    3300018: shot_muzzle2
+    4300000: TurretBase
+    4300002: Turret
+    4300004: Turret_bottom
+    4300006: Turret_top
+    4300008: Object006
+    4300010: Object005
+    4300012: turret_base
+    4300014: turret_top
+    4300016: shot_muzzle
+    4300018: shot_muzzle1
+    4300020: shot_muzzle2
+    7400000: build
+    7400002: attack
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: build
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 1
+  userData: 

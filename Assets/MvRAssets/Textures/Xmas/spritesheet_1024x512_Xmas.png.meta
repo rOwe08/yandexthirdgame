@@ -1,0 +1,2857 @@
+fileFormatVersion: 2
+guid: f69fa1a7d660a4e43b190ab2db0b2495
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: ElfGreenHeadHappy
+  - first:
+      213: 21300002
+    second: ElfGreenHeadAim
+  - first:
+      213: 21300004
+    second: ElfGreenHeadAngry
+  - first:
+      213: 21300006
+    second: spritesheet_1024x512_Xmas_3
+  - first:
+      213: 21300008
+    second: spritesheet_1024x512_Xmas_4
+  - first:
+      213: 21300010
+    second: spritesheet_1024x512_Xmas_5
+  - first:
+      213: 21300012
+    second: spritesheet_1024x512_Xmas_6
+  - first:
+      213: 21300014
+    second: spritesheet_1024x512_Xmas_7
+  - first:
+      213: 21300016
+    second: spritesheet_1024x512_Xmas_8
+  - first:
+      213: 21300018
+    second: spritesheet_1024x512_Xmas_9
+  - first:
+      213: 21300020
+    second: spritesheet_1024x512_Xmas_10
+  - first:
+      213: 21300022
+    second: spritesheet_1024x512_Xmas_11
+  - first:
+      213: 21300024
+    second: spritesheet_1024x512_Xmas_12
+  - first:
+      213: 21300026
+    second: spritesheet_1024x512_Xmas_13
+  - first:
+      213: 21300028
+    second: spritesheet_1024x512_Xmas_14
+  - first:
+      213: 21300030
+    second: spritesheet_1024x512_Xmas_18
+  - first:
+      213: 21300032
+    second: spritesheet_1024x512_Xmas_19
+  - first:
+      213: 21300034
+    second: spritesheet_1024x512_Xmas_25
+  - first:
+      213: 21300036
+    second: spritesheet_1024x512_Xmas_32
+  - first:
+      213: 21300038
+    second: spritesheet_1024x512_Xmas_33
+  - first:
+      213: 21300040
+    second: spritesheet_1024x512_Xmas_34
+  - first:
+      213: 21300042
+    second: spritesheet_1024x512_Xmas_35
+  - first:
+      213: 21300044
+    second: spritesheet_1024x512_Xmas_36
+  - first:
+      213: 21300046
+    second: spritesheet_1024x512_Xmas_37
+  - first:
+      213: 21300048
+    second: spritesheet_1024x512_Xmas_38
+  - first:
+      213: 21300050
+    second: spritesheet_1024x512_Xmas_39
+  - first:
+      213: 21300052
+    second: spritesheet_1024x512_Xmas_40
+  - first:
+      213: 21300054
+    second: spritesheet_1024x512_Xmas_41
+  - first:
+      213: 21300056
+    second: spritesheet_1024x512_Xmas_42
+  - first:
+      213: 21300058
+    second: spritesheet_1024x512_Xmas_43
+  - first:
+      213: 21300060
+    second: spritesheet_1024x512_Xmas_44
+  - first:
+      213: 21300062
+    second: spritesheet_1024x512_Xmas_45
+  - first:
+      213: 21300064
+    second: spritesheet_1024x512_Xmas_46
+  - first:
+      213: 21300066
+    second: spritesheet_1024x512_Xmas_47
+  - first:
+      213: 21300068
+    second: spritesheet_1024x512_Xmas_48
+  - first:
+      213: 21300070
+    second: spritesheet_1024x512_Xmas_49
+  - first:
+      213: 21300072
+    second: spritesheet_1024x512_Xmas_50
+  - first:
+      213: 21300074
+    second: spritesheet_1024x512_Xmas_51
+  - first:
+      213: 21300076
+    second: spritesheet_1024x512_Xmas_52
+  - first:
+      213: 21300078
+    second: spritesheet_1024x512_Xmas_53
+  - first:
+      213: 21300080
+    second: spritesheet_1024x512_Xmas_54
+  - first:
+      213: 21300082
+    second: spritesheet_1024x512_Xmas_55
+  - first:
+      213: 21300084
+    second: spritesheet_1024x512_Xmas_56
+  - first:
+      213: 21300086
+    second: spritesheet_1024x512_Xmas_57
+  - first:
+      213: 21300088
+    second: spritesheet_1024x512_Xmas_54
+  - first:
+      213: 21300090
+    second: spritesheet_1024x512_Xmas_48
+  - first:
+      213: 21300092
+    second: spritesheet_1024x512_Xmas_49
+  - first:
+      213: 21300094
+    second: spritesheet_1024x512_Xmas_50
+  - first:
+      213: 21300096
+    second: spritesheet_1024x512_Xmas_51
+  - first:
+      213: 21300098
+    second: spritesheet_1024x512_Xmas_53
+  - first:
+      213: 21300100
+    second: spritesheet_1024x512_Xmas_56
+  - first:
+      213: 21300102
+    second: spritesheet_1024x512_Xmas_57
+  - first:
+      213: 21300104
+    second: spritesheet_1024x512_Xmas_55
+  - first:
+      213: 21300106
+    second: spritesheet_1024x512_Xmas_56
+  - first:
+      213: 21300108
+    second: spritesheet_1024x512_Xmas_57
+  - first:
+      213: 21300110
+    second: spritesheet_1024x512_Xmas_58
+  - first:
+      213: 21300112
+    second: spritesheet_1024x512_Xmas_56
+  - first:
+      213: 21300114
+    second: spritesheet_1024x512_Xmas_57
+  - first:
+      213: 21300116
+    second: spritesheet_1024x512_Xmas_58
+  - first:
+      213: 21300118
+    second: spritesheet_1024x512_Xmas_59
+  - first:
+      213: 21300120
+    second: spritesheet_1024x512_Xmas_60
+  - first:
+      213: 21300122
+    second: spritesheet_1024x512_Xmas_61
+  - first:
+      213: 21300124
+    second: spritesheet_1024x512_Xmas_62
+  - first:
+      213: 21300126
+    second: spritesheet_1024x512_Xmas_63
+  - first:
+      213: 21300128
+    second: spritesheet_1024x512_Xmas_64
+  - first:
+      213: 21300130
+    second: spritesheet_1024x512_Xmas_65
+  - first:
+      213: 21300132
+    second: spritesheet_1024x512_Xmas_66
+  - first:
+      213: 21300134
+    second: spritesheet_1024x512_Xmas_67
+  - first:
+      213: 21300136
+    second: spritesheet_1024x512_Xmas_68
+  - first:
+      213: 21300138
+    second: spritesheet_1024x512_Xmas_69
+  - first:
+      213: 21300140
+    second: spritesheet_1024x512_Xmas_70
+  - first:
+      213: 21300142
+    second: spritesheet_1024x512_Xmas_71
+  - first:
+      213: 21300144
+    second: spritesheet_1024x512_Xmas_72
+  - first:
+      213: 21300146
+    second: spritesheet_1024x512_Xmas_73
+  - first:
+      213: 21300148
+    second: spritesheet_1024x512_Xmas_76
+  - first:
+      213: 21300150
+    second: spritesheet_1024x512_Xmas_77
+  - first:
+      213: 21300152
+    second: spritesheet_1024x512_Xmas_78
+  - first:
+      213: 21300154
+    second: spritesheet_1024x512_Xmas_79
+  - first:
+      213: 21300156
+    second: spritesheet_1024x512_Xmas_80
+  - first:
+      213: 21300158
+    second: spritesheet_1024x512_Xmas_81
+  - first:
+      213: 21300160
+    second: spritesheet_1024x512_Xmas_93
+  - first:
+      213: 21300162
+    second: spritesheet_1024x512_Xmas_94
+  - first:
+      213: 21300164
+    second: spritesheet_1024x512_Xmas_85
+  - first:
+      213: 21300166
+    second: spritesheet_1024x512_Xmas_86
+  - first:
+      213: 21300168
+    second: spritesheet_1024x512_Xmas_89
+  - first:
+      213: 21300170
+    second: spritesheet_1024x512_Xmas_90
+  - first:
+      213: 21300172
+    second: spritesheet_1024x512_Xmas_91
+  - first:
+      213: 21300174
+    second: spritesheet_1024x512_Xmas_92
+  - first:
+      213: 21300176
+    second: spritesheet_1024x512_Xmas_93
+  - first:
+      213: 21300178
+    second: spritesheet_1024x512_Xmas_95
+  - first:
+      213: 21300180
+    second: spritesheet_1024x512_Xmas_96
+  - first:
+      213: 21300182
+    second: spritesheet_1024x512_Xmas_97
+  - first:
+      213: 21300184
+    second: spritesheet_1024x512_Xmas_98
+  - first:
+      213: 21300186
+    second: spritesheet_1024x512_Xmas_99
+  - first:
+      213: 21300188
+    second: spritesheet_1024x512_Xmas_100
+  - first:
+      213: 21300190
+    second: spritesheet_1024x512_Xmas_101
+  - first:
+      213: 21300192
+    second: spritesheet_1024x512_Xmas_99
+  - first:
+      213: 21300194
+    second: spritesheet_1024x512_Xmas_100
+  - first:
+      213: 21300196
+    second: spritesheet_1024x512_Xmas_101
+  - first:
+      213: 21300198
+    second: spritesheet_1024x512_Xmas_102
+  - first:
+      213: 21300200
+    second: spritesheet_1024x512_Xmas_103
+  - first:
+      213: 21300202
+    second: spritesheet_1024x512_Xmas_104
+  - first:
+      213: 21300204
+    second: spritesheet_1024x512_Xmas_102
+  - first:
+      213: 21300206
+    second: spritesheet_1024x512_Xmas_103
+  - first:
+      213: 21300208
+    second: spritesheet_1024x512_Xmas_104
+  - first:
+      213: 21300210
+    second: spritesheet_1024x512_Xmas_105
+  - first:
+      213: 21300212
+    second: spritesheet_1024x512_Xmas_106
+  - first:
+      213: 21300214
+    second: spritesheet_1024x512_Xmas_107
+  - first:
+      213: 21300216
+    second: spritesheet_1024x512_Xmas_108
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElfGreenHeadHappy
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 448
+        width: 62
+        height: 61
+      alignment: 9
+      pivot: {x: 0.4839157, y: 0.16323052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfGreenHeadAim
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 448
+        width: 62
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.1305347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfGreenHeadAngry
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 447
+        width: 61
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5032696, y: 0.13327666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 481
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 410
+        width: 33
+        height: 31
+      alignment: 9
+      pivot: {x: 0.9364143, y: 0.3713251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 418
+        width: 31
+        height: 24
+      alignment: 9
+      pivot: {x: 0.11601245, y: 0.60408527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 402
+        width: 36
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5110806, y: 0.2954399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 418
+        width: 29
+        height: 23
+      alignment: 9
+      pivot: {x: 0.7338331, y: 0.89889127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 418
+        width: 31
+        height: 23
+      alignment: 9
+      pivot: {x: 0.22978309, y: 0.87287706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 396
+        width: 51
+        height: 14
+      alignment: 9
+      pivot: {x: 0.06496287, y: 0.51752144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 344
+        width: 52
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5064326, y: 0.17159091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 357
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 362
+        width: 35
+        height: 33
+      alignment: 9
+      pivot: {x: 0.50644857, y: 0.4366566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 260
+        width: 85
+        height: 92
+      alignment: 9
+      pivot: {x: 0.51967585, y: 0.11097286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_14
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 260
+        width: 70
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5047784, y: 0.106747605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 448
+        width: 61
+        height: 61
+      alignment: 9
+      pivot: {x: 0.4784786, y: 0.112609364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_19
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 448
+        width: 61
+        height: 61
+      alignment: 9
+      pivot: {x: 0.49139154, y: 0.11691334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_25
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 465
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_32
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 446
+        width: 48
+        height: 15
+      alignment: 9
+      pivot: {x: 0.06919225, y: 0.5455587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_33
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 418
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_34
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 414
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_35
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 394
+        width: 61
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_36
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 417
+        width: 33
+        height: 27
+      alignment: 9
+      pivot: {x: 0.36473963, y: 0.48055127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_37
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 372
+        width: 38
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5085819, y: 0.24318543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_38
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 396
+        width: 34
+        height: 18
+      alignment: 9
+      pivot: {x: 0.18270785, y: 0.7787594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_39
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 374
+        width: 34
+        height: 18
+      alignment: 9
+      pivot: {x: 0.18827371, y: 0.8261125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_40
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 344
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.7231588, y: 0.86812556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_41
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 344
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.2243337, y: 0.84244174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 181
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_43
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 182
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 107
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_45
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 114
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_46
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 114
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_47
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 102
+        width: 61
+        height: 56
+      alignment: 9
+      pivot: {x: 0.49352676, y: 0.12628569}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_48
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 63
+        width: 51
+        height: 40
+      alignment: 9
+      pivot: {x: 0.141553, y: 0.85766757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_49
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 62
+        width: 95
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_50
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 75
+        width: 36
+        height: 20
+      alignment: 9
+      pivot: {x: 0.20058993, y: 0.7951336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 76
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2
+        width: 77
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 43
+        height: 35
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.2946906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 5
+        width: 33
+        height: 23
+      alignment: 9
+      pivot: {x: 0.28224736, y: 0.8012702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_55
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 184
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_56
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 261
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_57
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 338
+        width: 77
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_54
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 465
+        width: 36
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7184372, y: 0.4383233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6532308553349a70800000000000000
+      internalID: 8832741211496396141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_48
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 96
+        width: 61
+        height: 67
+      alignment: 9
+      pivot: {x: 0.4949691, y: 0.1977079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a963c03f15c80b0800000000000000
+      internalID: -5725110921970935178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_49
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 75
+        width: 37
+        height: 20
+      alignment: 9
+      pivot: {x: 0.21943054, y: 0.8068733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb26f6cc5f78ca1a0800000000000000
+      internalID: -6796908247842331972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_50
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 6
+        width: 27
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d039681e4d05050800000000000000
+      internalID: 5787359586261601547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_51
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 448
+        width: 61
+        height: 61
+      alignment: 9
+      pivot: {x: 0.46413833, y: 0.14735939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a267ac18d3ff3db0800000000000000
+      internalID: -4809857767489183064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_53
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 404
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e911c8f39377afe0800000000000000
+      internalID: -1177845698163303962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_56
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 378
+        width: 67
+        height: 31
+      alignment: 9
+      pivot: {x: 0.98091877, y: 0.7474779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1494d67a203daf0800000000000000
+      internalID: -372951426025307687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_57
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 372
+        width: 38
+        height: 18
+      alignment: 9
+      pivot: {x: 0.0881444, y: 0.8409695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a422f6cb698911070800000000000000
+      internalID: 8075403380025926218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_55
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 448
+        width: 61
+        height: 62
+      alignment: 9
+      pivot: {x: 0.4701148, y: 0.14128605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4702a2ac0723355b0800000000000000
+      internalID: -5380901669768126348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_56
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 439
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1494d67a203daf0800000000000000
+      internalID: -372951426025307687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_57
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 415
+        width: 68
+        height: 29
+      alignment: 9
+      pivot: {x: 0.97384644, y: 0.20370904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a422f6cb698911070800000000000000
+      internalID: 8075403380025926218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_58
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 404
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_56
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 369
+        width: 32
+        height: 23
+      alignment: 9
+      pivot: {x: 0.1040926, y: 0.5979256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1494d67a203daf0800000000000000
+      internalID: -372951426025307687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_57
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 376
+        width: 29
+        height: 23
+      alignment: 9
+      pivot: {x: 0.72328556, y: 0.7937755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a422f6cb698911070800000000000000
+      internalID: 8075403380025926218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_58
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 376
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.2372345, y: 0.7937755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b326fb27a4d536b0800000000000000
+      internalID: -5317109970578824272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_59
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 168
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_60
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 170
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_61
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 109
+        width: 57
+        height: 53
+      alignment: 9
+      pivot: {x: 0.45604095, y: 0.15993932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_62
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 110
+        width: 56
+        height: 53
+      alignment: 9
+      pivot: {x: 0.43720135, y: 0.13505684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_63
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 93
+        width: 71
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_64
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 5
+        width: 46
+        height: 102
+      alignment: 9
+      pivot: {x: 0.41709635, y: 0.054743815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a305410000000000800000000000000
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_65
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 47
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_66
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 36
+        width: 94
+        height: 54
+      alignment: 9
+      pivot: {x: 0.43135008, y: 0.43135035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a305410000000000800000000000000
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_67
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 7
+        width: 87
+        height: 26
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.31332153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_68
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 168
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_69
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 6
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_70
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 109
+        width: 57
+        height: 54
+      alignment: 9
+      pivot: {x: 0.46097615, y: 0.14320996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_71
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 109
+        width: 60
+        height: 62
+      alignment: 9
+      pivot: {x: 0.44982606, y: 0.14932436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_72
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 213
+        width: 33
+        height: 37
+      alignment: 9
+      pivot: {x: 0.579858, y: 0.39316374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_73
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 214
+        width: 40
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5164711, y: 0.37189525}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_76
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 214
+        width: 53
+        height: 37
+      alignment: 9
+      pivot: {x: 0.55434084, y: 0.35776415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_77
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 28
+        width: 38
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_78
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 45
+        width: 11
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_79
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 4
+        width: 53
+        height: 70
+      alignment: 9
+      pivot: {x: 0.48251054, y: 0.35433832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_80
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 6
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_81
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 2
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_93
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 76
+        width: 82
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4493336, y: 0.2039314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_94
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 167
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_85
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 225
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_86
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 467
+        width: 37
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.30465317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_89
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 344
+        width: 37
+        height: 18
+      alignment: 9
+      pivot: {x: 0.06829834, y: 0.8874512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_90
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 344
+        width: 32
+        height: 23
+      alignment: 9
+      pivot: {x: 0.1344223, y: 0.5880326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac305410000000000800000000000000
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_91
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 344
+        width: 29
+        height: 23
+      alignment: 9
+      pivot: {x: 0.72497135, y: 0.8325673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_92
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 344
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.24503276, y: 0.8325673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_93
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 296
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a27deb48c1154730800000000000000
+      internalID: 3982608997444055720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_95
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 313
+        width: 80
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_96
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 278
+        width: 61
+        height: 61
+      alignment: 9
+      pivot: {x: 0.47443327, y: 0.120152704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_97
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 297
+        width: 120
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5199646, y: 0.2987555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_98
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 173
+        width: 64
+        height: 117
+      alignment: 9
+      pivot: {x: 0.16915321, y: 0.04362605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_99
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 173
+        width: 40
+        height: 117
+      alignment: 9
+      pivot: {x: 0.29618376, y: 0.043909058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad305410000000000800000000000000
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_100
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 173
+        width: 64
+        height: 118
+      alignment: 9
+      pivot: {x: 0.51158047, y: 0.040709026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_101
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 173
+        width: 41
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5230341, y: 0.0374108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_99
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 278
+        width: 61
+        height: 61
+      alignment: 9
+      pivot: {x: 0.4890427, y: 0.1165001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8338117b933816790800000000000000
+      internalID: -7538600017333746888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_100
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 288
+        width: 63
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b446913ee41ae20800000000000000
+      internalID: 3360053534285646676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_101
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 252
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d361efaa3f4be70800000000000000
+      internalID: 9130190260319698252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_102
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 254
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e305410000000000800000000000000
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_103
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 259
+        width: 48
+        height: 15
+      alignment: 9
+      pivot: {x: 0.07297579, y: 0.55941164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e305410000000000800000000000000
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_104
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 254
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae305410000000000800000000000000
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_102
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 445
+        width: 51
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.09214809}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856274d3e81d18040800000000000000
+      internalID: 4648226699266696792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_103
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 417
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8617b9475e9e420800000000000000
+      internalID: 2659909343925856435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_104
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 352
+        width: 95
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04724e0f96400e800800000000000000
+      internalID: 639516000146171712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_105
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 137
+        width: 78
+        height: 28
+      alignment: 9
+      pivot: {x: 0.112735845, y: 0.49218258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f305410000000000800000000000000
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_106
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 43
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f305410000000000800000000000000
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_107
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 3
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f305410000000000800000000000000
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_1024x512_Xmas_108
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 110
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f305410000000000800000000000000
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ElfGreenHeadAim: 21300002
+      ElfGreenHeadAngry: 21300004
+      ElfGreenHeadHappy: 21300000
+      spritesheet_1024x512_Xmas_10: 21300020
+      spritesheet_1024x512_Xmas_100: 21300188
+      spritesheet_1024x512_Xmas_101: 21300190
+      spritesheet_1024x512_Xmas_102: 21300198
+      spritesheet_1024x512_Xmas_103: 21300200
+      spritesheet_1024x512_Xmas_104: 21300202
+      spritesheet_1024x512_Xmas_105: 21300210
+      spritesheet_1024x512_Xmas_106: 21300212
+      spritesheet_1024x512_Xmas_107: 21300214
+      spritesheet_1024x512_Xmas_108: 21300216
+      spritesheet_1024x512_Xmas_11: 21300022
+      spritesheet_1024x512_Xmas_12: 21300024
+      spritesheet_1024x512_Xmas_13: 21300026
+      spritesheet_1024x512_Xmas_14: 21300028
+      spritesheet_1024x512_Xmas_18: 21300030
+      spritesheet_1024x512_Xmas_19: 21300032
+      spritesheet_1024x512_Xmas_25: 21300034
+      spritesheet_1024x512_Xmas_3: 21300006
+      spritesheet_1024x512_Xmas_32: 21300036
+      spritesheet_1024x512_Xmas_33: 21300038
+      spritesheet_1024x512_Xmas_34: 21300040
+      spritesheet_1024x512_Xmas_35: 21300042
+      spritesheet_1024x512_Xmas_36: 21300044
+      spritesheet_1024x512_Xmas_37: 21300046
+      spritesheet_1024x512_Xmas_38: 21300048
+      spritesheet_1024x512_Xmas_39: 21300050
+      spritesheet_1024x512_Xmas_4: 21300008
+      spritesheet_1024x512_Xmas_40: 21300052
+      spritesheet_1024x512_Xmas_41: 21300054
+      spritesheet_1024x512_Xmas_42: 21300056
+      spritesheet_1024x512_Xmas_43: 21300058
+      spritesheet_1024x512_Xmas_44: 21300060
+      spritesheet_1024x512_Xmas_45: 21300062
+      spritesheet_1024x512_Xmas_46: 21300064
+      spritesheet_1024x512_Xmas_47: 21300066
+      spritesheet_1024x512_Xmas_48: 21300068
+      spritesheet_1024x512_Xmas_49: 21300070
+      spritesheet_1024x512_Xmas_5: 21300010
+      spritesheet_1024x512_Xmas_50: 21300072
+      spritesheet_1024x512_Xmas_51: 21300074
+      spritesheet_1024x512_Xmas_52: 21300076
+      spritesheet_1024x512_Xmas_53: 21300078
+      spritesheet_1024x512_Xmas_54: 21300080
+      spritesheet_1024x512_Xmas_55: 21300082
+      spritesheet_1024x512_Xmas_56: 21300084
+      spritesheet_1024x512_Xmas_57: 21300086
+      spritesheet_1024x512_Xmas_58: 21300110
+      spritesheet_1024x512_Xmas_59: 21300118
+      spritesheet_1024x512_Xmas_6: 21300012
+      spritesheet_1024x512_Xmas_60: 21300120
+      spritesheet_1024x512_Xmas_61: 21300122
+      spritesheet_1024x512_Xmas_62: 21300124
+      spritesheet_1024x512_Xmas_63: 21300126
+      spritesheet_1024x512_Xmas_64: 21300128
+      spritesheet_1024x512_Xmas_65: 21300130
+      spritesheet_1024x512_Xmas_66: 21300132
+      spritesheet_1024x512_Xmas_67: 21300134
+      spritesheet_1024x512_Xmas_68: 21300136
+      spritesheet_1024x512_Xmas_69: 21300138
+      spritesheet_1024x512_Xmas_7: 21300014
+      spritesheet_1024x512_Xmas_70: 21300140
+      spritesheet_1024x512_Xmas_71: 21300142
+      spritesheet_1024x512_Xmas_72: 21300144
+      spritesheet_1024x512_Xmas_73: 21300146
+      spritesheet_1024x512_Xmas_76: 21300148
+      spritesheet_1024x512_Xmas_77: 21300150
+      spritesheet_1024x512_Xmas_78: 21300152
+      spritesheet_1024x512_Xmas_79: 21300154
+      spritesheet_1024x512_Xmas_8: 21300016
+      spritesheet_1024x512_Xmas_80: 21300156
+      spritesheet_1024x512_Xmas_81: 21300158
+      spritesheet_1024x512_Xmas_85: 21300164
+      spritesheet_1024x512_Xmas_86: 21300166
+      spritesheet_1024x512_Xmas_89: 21300168
+      spritesheet_1024x512_Xmas_9: 21300018
+      spritesheet_1024x512_Xmas_90: 21300170
+      spritesheet_1024x512_Xmas_91: 21300172
+      spritesheet_1024x512_Xmas_92: 21300174
+      spritesheet_1024x512_Xmas_93: 21300160
+      spritesheet_1024x512_Xmas_94: 21300162
+      spritesheet_1024x512_Xmas_95: 21300178
+      spritesheet_1024x512_Xmas_96: 21300180
+      spritesheet_1024x512_Xmas_97: 21300182
+      spritesheet_1024x512_Xmas_98: 21300184
+      spritesheet_1024x512_Xmas_99: 21300186
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

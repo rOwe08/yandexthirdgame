@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 1b54e5ec0687c3542ba7c21b3f7101a3
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: freeze_muzzle
+    100004: freeze_muzzle001
+    100006: freeze_muzzle002
+    100008: freeze_muzzle003
+    100010: freeze_muzzle004
+    100012: freeze_muzzle005
+    100014: freeze_muzzle006
+    100016: freeze_muzzle007
+    100018: freeze_muzzle008
+    100020: freeze_muzzle009
+    100022: freeze_muzzle010
+    100024: freeze_muzzle011
+    400000: //RootNode
+    400002: freeze_muzzle
+    400004: freeze_muzzle001
+    400006: freeze_muzzle002
+    400008: freeze_muzzle003
+    400010: freeze_muzzle004
+    400012: freeze_muzzle005
+    400014: freeze_muzzle006
+    400016: freeze_muzzle007
+    400018: freeze_muzzle008
+    400020: freeze_muzzle009
+    400022: freeze_muzzle010
+    400024: freeze_muzzle011
+    2300000: //RootNode
+    2300002: freeze_muzzle
+    2300004: freeze_muzzle001
+    2300006: freeze_muzzle002
+    2300008: freeze_muzzle003
+    2300010: freeze_muzzle004
+    2300012: freeze_muzzle005
+    2300014: freeze_muzzle006
+    2300016: freeze_muzzle007
+    2300018: freeze_muzzle008
+    2300020: freeze_muzzle009
+    2300022: freeze_muzzle010
+    2300024: freeze_muzzle011
+    3300000: //RootNode
+    3300002: freeze_muzzle
+    3300004: freeze_muzzle001
+    3300006: freeze_muzzle002
+    3300008: freeze_muzzle003
+    3300010: freeze_muzzle004
+    3300012: freeze_muzzle005
+    3300014: freeze_muzzle006
+    3300016: freeze_muzzle007
+    3300018: freeze_muzzle008
+    3300020: freeze_muzzle009
+    3300022: freeze_muzzle010
+    3300024: freeze_muzzle011
+    4300000: Object014
+    4300002: freezer
+    4300004: freeze_muzzle001
+    4300006: freeze_muzzle003
+    4300008: freeze_muzzle005
+    4300010: freeze_muzzle004
+    4300012: freeze_muzzle002
+    4300014: freeze_muzzle
+    4300016: freeze_muzzle006
+    4300018: freeze_muzzle007
+    4300020: freeze_muzzle008
+    4300022: freeze_muzzle009
+    4300024: freeze_muzzle010
+    4300026: freeze_muzzle011
+    7400000: attack
+    7400002: build
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: build
+      takeName: Take 001
+      firstFrame: 2.9000001
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 1
+  userData: 

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 using UnityEngine;
 using UnityEngine.UI;
+using YG;
 
 namespace MvR
 {
@@ -157,7 +158,7 @@ namespace MvR
 							// Display the star rating for each level
 							for ( indexC = 0 ; indexC < maxStarRatings ; indexC++ )
 							{
-								if ( indexC < PlayerPrefs.GetInt(levelNamePrefix + (indexLevel + 1)) - 1 )
+								if ( indexC < YandexGame.savesData.starsRecord[levelNamePrefix + (indexLevel + 1)] - 1 )
 								{
 									if ( starIcon )
 									{
@@ -204,17 +205,18 @@ namespace MvR
 			for( indexC = 0; indexC < levelStatus.Length; indexC++ )
 			{
 				// If there is no previous record of the level status, use the record in the game itself
-				if( PlayerPrefs.HasKey(levelNamePrefix + (indexC + 1)) )
+				if(YandexGame.savesData.starsRecord.ContainsKey(levelNamePrefix + (indexC + 1)) )
 				{
-					levelStatus[indexC] = PlayerPrefs.GetInt(levelNamePrefix + (indexC + 1));
+					levelStatus[indexC] = YandexGame.savesData.starsRecord[levelNamePrefix + (indexC + 1)];
 				}
 				else
 				{
-					PlayerPrefs.SetInt(levelNamePrefix + (indexC + 1), levelStatus[indexC]);
-				}
+					//PlayerPrefs.SetInt(levelNamePrefix + (indexC + 1), levelStatus[indexC]);
+                    YandexGame.savesData.starsRecord[levelNamePrefix + (indexC + 1)] = levelStatus[indexC];
+                }
 			}
 	
-			PlayerPrefs.Save();
+			//PlayerPrefs.Save();
 		}
 
 		/// <summary>
@@ -225,10 +227,11 @@ namespace MvR
 			// Remove all level status records from the levels
 			for( indexC = 0; indexC < levelStatus.Length; indexC++ )
 			{
-				PlayerPrefs.DeleteKey(levelNamePrefix + (indexC + 1));
+				YandexGame.savesData.starsRecord.Remove(levelNamePrefix + (indexC + 1));
+				//PlayerPrefs.DeleteKey(levelNamePrefix + (indexC + 1));
 			}
 	
-			PlayerPrefs.Save();
+			//PlayerPrefs.Save();
 	
 			// Restart the level to make PlayerPrefs take effect
 			#if UNITY_5_3 || UNITY_5_3_OR_NEWER
@@ -247,10 +250,12 @@ namespace MvR
 			// Set all levels status to "unlocked"
 			for( indexC = 0; indexC < levelStatus.Length; indexC++ )
 			{
-				PlayerPrefs.SetInt(levelNamePrefix + (indexC + 1), 1);
-			}
+				//PlayerPrefs.SetInt(levelNamePrefix + (indexC + 1), 1);
+				YandexGame.savesData.starsRecord[levelNamePrefix + (indexC + 1)] = 1;
+
+            }
 	
-			PlayerPrefs.Save();
+			//PlayerPrefs.Save();
 	
 			// Restart the level to make PlayerPrefs take effect
 			#if UNITY_5_3 || UNITY_5_3_OR_NEWER

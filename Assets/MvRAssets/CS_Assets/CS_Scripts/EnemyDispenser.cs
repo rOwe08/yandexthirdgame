@@ -6,6 +6,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using MvR.Types;
+using YG;
 
 namespace MvR
 {
@@ -309,9 +310,10 @@ namespace MvR
 			// Set the rating of the current level in PlayerPrefs, but only if it's higher than the previous rating
 			#if UNITY_5_3 || UNITY_5_3_OR_NEWER
 
-			if ( starRating > PlayerPrefs.GetInt(SceneManager.GetActiveScene().name) )
+			if ( starRating > YandexGame.savesData.starsRecord[SceneManager.GetActiveScene().name])
 			{
-				PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, (int)starRating);
+				YandexGame.savesData.starsRecord[SceneManager.GetActiveScene().name] = (int)starRating;
+                //PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, (int)starRating);
 			}
 			#else
 			if ( starRating > PlayerPrefs.GetInt(Application.loadedLevelName) )
@@ -323,10 +325,11 @@ namespace MvR
 			yield return new WaitForSeconds(4);
 			
 			// Unlock the next level and go to it
-			PlayerPrefs.SetInt(nextLevel, 1);
-			
+			//PlayerPrefs.SetInt(nextLevel, 1);
+            YandexGame.savesData.starsRecord[nextLevel] = 1;
+            
 			// If a next level is set, load it
-			if( nextLevel == "" )
+            if ( nextLevel == "" )
 			{
 				Debug.LogWarning("Warning, no level name was set");
 			}

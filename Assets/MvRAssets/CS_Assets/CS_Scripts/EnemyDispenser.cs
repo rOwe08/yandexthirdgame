@@ -313,8 +313,9 @@ namespace MvR
 			if ( starRating > YandexGame.savesData.starsRecord[SceneManager.GetActiveScene().name])
 			{
 				YandexGame.savesData.starsRecord[SceneManager.GetActiveScene().name] = (int)starRating;
+                YandexGame.SaveProgress();
                 //PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, (int)starRating);
-			}
+            }
 			#else
 			if ( starRating > PlayerPrefs.GetInt(Application.loadedLevelName) )
 			{
@@ -327,8 +328,8 @@ namespace MvR
 			// Unlock the next level and go to it
 			//PlayerPrefs.SetInt(nextLevel, 1);
             YandexGame.savesData.starsRecord[nextLevel] = 1;
-            
-			// If a next level is set, load it
+            YandexGame.SaveProgress();
+            // If a next level is set, load it
             if ( nextLevel == "" )
 			{
 				Debug.LogWarning("Warning, no level name was set");

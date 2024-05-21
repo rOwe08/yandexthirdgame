@@ -213,6 +213,7 @@ namespace MvR
 				{
 					//PlayerPrefs.SetInt(levelNamePrefix + (indexC + 1), levelStatus[indexC]);
                     YandexGame.savesData.starsRecord[levelNamePrefix + (indexC + 1)] = levelStatus[indexC];
+                    YandexGame.SaveProgress();
                 }
 			}
 	
@@ -228,8 +229,9 @@ namespace MvR
 			for( indexC = 0; indexC < levelStatus.Length; indexC++ )
 			{
 				YandexGame.savesData.starsRecord.Remove(levelNamePrefix + (indexC + 1));
-				//PlayerPrefs.DeleteKey(levelNamePrefix + (indexC + 1));
-			}
+                YandexGame.SaveProgress();
+                //PlayerPrefs.DeleteKey(levelNamePrefix + (indexC + 1));
+            }
 	
 			//PlayerPrefs.Save();
 	

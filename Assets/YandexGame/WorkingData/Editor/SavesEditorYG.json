@@ -1,5 +1,5 @@
 {
-  "idSave": 14,
+  "idSave": 19,
   "isFirstSession": false,
   "language": "ru",
   "promptDone": false,
@@ -15,6 +15,8 @@
     "CSLEVEL9": 0,
     "CSLEVEL10": 0,
     "CSLEVEL11": 0,
-    "CSLEVEL12": 0
+    "CSLEVEL12": 0,
+    "CSHalloween": -2147483648,
+    "CSStartMenu": 1
   }
 }

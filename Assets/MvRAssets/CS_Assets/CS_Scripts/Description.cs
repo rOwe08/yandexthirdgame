@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 #endif
 
 using UnityEngine;
+using YG;
 
 namespace MvR
 {
@@ -17,7 +18,8 @@ namespace MvR
 	{
 		public Rect positionAndSize = new Rect(100, 100, 600, 400); // Location and size of the description box.
 
-		public string description; // The actual text description to be displayed
+		private string description;
+		public string[] desc;
 		public GUISkin guiSkin;
 
 		/// <summary>
@@ -30,10 +32,32 @@ namespace MvR
 		{
 			GUI.skin = guiSkin;
 
+			if(YandexGame.EnvironmentData.language == "ru")
+			{
+				description = desc[0];
+			}
+			else
+			{
+                description = desc[1];
+            }
+
 			GUI.Label(positionAndSize, description);
-	
-			// A button which goes bacck to the start menu
-			if( GUI.Button(new Rect((Screen.width - 300) * 0.5f, Screen.height - 60, 300, 50), "Back To Menu") )
+
+			// A button which goes back to the start menu
+
+			string ruText = "В меню";
+			string enText = "Back To Menu";
+			string textToShow;
+
+			if(YandexGame.EnvironmentData.language == "ru") 
+			{
+				textToShow = ruText;
+			}
+            else
+			{ 
+				textToShow = enText;
+            }
+            if ( GUI.Button(new Rect((Screen.width - 300) * 0.5f, Screen.height - 60, 300, 50), textToShow) )
 			{
 				if( GetComponent<AudioSource>() )
 					GetComponent<AudioSource>().Play();

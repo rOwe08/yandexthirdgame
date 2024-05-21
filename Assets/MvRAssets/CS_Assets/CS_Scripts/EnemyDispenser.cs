@@ -7,6 +7,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using MvR.Types;
 using YG;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace MvR
 {
@@ -46,14 +47,8 @@ namespace MvR
 		// Did we win this battle?
 		internal bool win = false;
 
-		// The image to display when winning
-		public Texture2D winTexture;
-
 		// Did we lose this battle?
 		internal bool lose = false;
-
-		// The image to display when losing
-		public Texture2D loseTexture;
 
 		// The next level to be loaded after winning
 		public string nextLevel = "Level3";
@@ -134,7 +129,7 @@ namespace MvR
 					Vector2 deltaSize = new Vector2(ed.enemyCanvas.Find("Image").GetComponent<RectTransform>().sizeDelta.x * (1 - enemiesCreated/enemiesTotal), ed.enemyCanvas.Find("Image").GetComponent<RectTransform>().sizeDelta.y);
 
 					ed.enemyCanvas.Find("Image/Fill").GetComponent<RectTransform>().sizeDelta = deltaSize;
-					ed.enemyCanvas.Find("Image/Text").GetComponent<Text>().text = (enemiesTotal - enemiesCreated).ToString() + "/" + enemiesTotal.ToString();
+					ed.enemyCanvas.Find("Image/Text").GetComponent<UnityEngine.UI.Text>().text = (enemiesTotal - enemiesCreated).ToString() + "/" + enemiesTotal.ToString();
 				}
 			}
 
@@ -241,47 +236,62 @@ namespace MvR
 				GUI.Box( new Rect( Screen.width - 200, Screen.height - 32, 200, 30), (enemiesTotal - enemiesCreated).ToString() + "/" + enemiesTotal.ToString());
 			}
 
-			// Display win image
-			if( win )
-			{
-				if( winTexture != null )
-				{
-					GUI.Label(new Rect((Screen.width - winTexture.width) * 0.5f, (Screen.height - winTexture.height) * 0.5f, winTexture.width, winTexture.height), winTexture);
-				}
+            GUIStyle labelStyle = new GUIStyle(GUI.skin.label);
+            labelStyle.fontSize = 60;
 
-				for( index = 0; index < maxStarRatings; index++ )
-				{
-					if( index < starRating - 1 )
-					{
-						if( starIcon != null )
-						{
-							GUI.Label(new Rect((Screen.width - starIcon.width * maxStarRatings) * 0.5f + starIcon.width * index, (Screen.height + starIcon.height) * 0.5f, starIcon.width, starIcon.height), starIcon);
-						}
-					}
-					else
-					{
-						if( starEmptyIcon != null )
-						{
-							GUI.Label(new Rect((Screen.width - starEmptyIcon.width * maxStarRatings) * 0.5f + starEmptyIcon.width * index, (Screen.height + starEmptyIcon.height) * 0.5f, starEmptyIcon.width, starEmptyIcon.height), starEmptyIcon);
-						}
-					}
-				}
-			}
-	
-			// Display lose image
-			if( lose )
-			{
-				if( loseTexture != null )
-				{
-					GUI.Label(new Rect((Screen.width - loseTexture.width) * 0.5f, (Screen.height - loseTexture.height) * 0.5f, loseTexture.width, loseTexture.height), loseTexture);
-				}
-			}
-		}
+            // Display win image or text
+            if (win)
+            {
+                if (YandexGame.EnvironmentData.language == "ru")
+                {
+                    string text = "ПОБЕДА!";
+                    GUI.Label(new Rect(Screen.width * 0.5f - labelStyle.fontSize * (text.Length / 2.0f), Screen.height * 0.5f - labelStyle.fontSize, 400, 400), "ПОБЕДА!", labelStyle);
+                }
+                else
+                {
+                    string text = "You Win!";
+                    GUI.Label(new Rect(Screen.width * 0.5f - labelStyle.fontSize * (text.Length / 2.0f), Screen.height * 0.5f - labelStyle.fontSize, 400, 400), "You Win!", labelStyle);
+                }
 
-		/// <summary>
-		/// Win condition.
-		/// </summary>
-		internal void Win()
+                for (index = 0; index < maxStarRatings; index++)
+                {
+                    if (index < starRating - 1)
+                    {
+                        if (starIcon != null)
+                        {
+                            GUI.Label(new Rect((Screen.width - starIcon.width * maxStarRatings) * 0.5f + starIcon.width * index, (Screen.height + starIcon.height) * 0.5f, starIcon.width, starIcon.height), starIcon);
+                        }
+                    }
+                    else
+                    {
+                        if (starEmptyIcon != null)
+                        {
+                            GUI.Label(new Rect((Screen.width - starEmptyIcon.width * maxStarRatings) * 0.5f + starEmptyIcon.width * index, (Screen.height + starEmptyIcon.height) * 0.5f, starEmptyIcon.width, starEmptyIcon.height), starEmptyIcon);
+                        }
+                    }
+                }
+            }
+
+            // Display lose image or text
+            if (lose)
+            {
+                if (YandexGame.EnvironmentData.language == "ru")
+                {
+					string text = "ПОРАЖЕНИЕ:(";
+                    GUI.Label(new Rect(Screen.width * 0.5f - labelStyle.fontSize * (text.Length / 2.0f), Screen.height * 0.5f - labelStyle.fontSize, 400, 400), "ПОРАЖЕНИЕ:(", labelStyle);
+                }
+                else
+                {
+                    string text = "You Lose!";
+                    GUI.Label(new Rect(Screen.width * 0.5f - labelStyle.fontSize * (text.Length / 2.0f), Screen.height * 0.5f - labelStyle.fontSize, 400, 400), "You Lose!", labelStyle);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Win condition.
+        /// </summary>
+        internal void Win()
 		{
 			StartCoroutine(ExecuteWin());
 		}
@@ -307,23 +317,35 @@ namespace MvR
 			
 			starRating = Mathf.Floor((LLODLeft / LLODAvailable) * maxStarRatings) + 1;
 
-			// Set the rating of the current level in PlayerPrefs, but only if it's higher than the previous rating
-			#if UNITY_5_3 || UNITY_5_3_OR_NEWER
+            // Set the rating of the current level in PlayerPrefs, but only if it's higher than the previous rating
+#if UNITY_5_3 || UNITY_5_3_OR_NEWER
 
-			if ( starRating > YandexGame.savesData.starsRecord[SceneManager.GetActiveScene().name])
-			{
-				YandexGame.savesData.starsRecord[SceneManager.GetActiveScene().name] = (int)starRating;
-                YandexGame.SaveProgress();
-                //PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, (int)starRating);
+            string sceneName = SceneManager.GetActiveScene().name;
+
+            if (YandexGame.savesData.starsRecord.ContainsKey(sceneName))
+            {
+                if (starRating > YandexGame.savesData.starsRecord[sceneName])
+                {
+                    YandexGame.savesData.starsRecord[sceneName] = (int)starRating;
+                    YandexGame.SaveProgress();
+                    //PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, (int)starRating);
+                }
             }
-			#else
-			if ( starRating > PlayerPrefs.GetInt(Application.loadedLevelName) )
-			{
-				PlayerPrefs.SetInt(Application.loadedLevelName, (int)starRating);
-			}
-			#endif
-			
-			yield return new WaitForSeconds(4);
+            else
+            {
+                // Если ключ отсутствует, добавьте его в словарь с текущим значением starRating
+                YandexGame.savesData.starsRecord[sceneName] = (int)starRating;
+                YandexGame.SaveProgress();
+            }
+
+#else
+if (starRating > PlayerPrefs.GetInt(Application.loadedLevelName))
+{
+    PlayerPrefs.SetInt(Application.loadedLevelName, (int)starRating);
+}
+#endif
+
+            yield return new WaitForSeconds(4);
 			
 			// Unlock the next level and go to it
 			//PlayerPrefs.SetInt(nextLevel, 1);
